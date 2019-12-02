@@ -100,6 +100,7 @@ header {
   margin: 20px 0;
 }
 .margin_center {
+  height: 600px;
   max-width: 1440px;
   margin: 60px auto;
 }
@@ -117,6 +118,38 @@ header {
   text-decoration: underline;
   color: #0070c8;
 }
+/* SECONDA SECTION */
+.background_Banner {
+  background-image: url(../img/HelbizBanner.jpg);
+  height: 450px;
+  background-size: cover;
+}
+.background_banner_bottom {
+  height: 300px;
+  width: 70%;
+  margin: 80px auto;
+}
+.Banner_bottom_h2{
+  font-size: 35px;
+  left: 30px;
+  width: 30%;
+  position: relative;
+}
+.steps {
+  position: relative;
+  right: 30px;
+  width: 30%;
+  float: right;
+  font-size: 25px;
+}
+.height_phone {
+  width: 30%;
+  top: 700px;
+  left: 30%;
+  position: absolute;
+  max-height: 600px;
+}
+
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
