@@ -161,6 +161,9 @@
   .col-md-12 {
     width: 100%;
   }
+  .xs-display-none {
+    display: none;
+  }
 }
 
 /* Offset */
