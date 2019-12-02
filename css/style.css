@@ -4,7 +4,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .container_1000 {
@@ -87,6 +87,35 @@ header {
 .jumbo_text p {
   font-size: 1.5em;
   margin-bottom: 0.8rem;
+}
+.text-center {
+  text-align: center;
+}
+.img_TAG {
+  max-height: 22px;
+  margin: 15px 0;
+}
+.image_helbiz{
+  max-width: 200px;
+  margin: 20px 0;
+}
+.margin_center {
+  max-width: 1440px;
+  margin: 60px auto;
+}
+.font-h2 {
+  margin: 15px 0;
+  font-size: 21px;
+  color: #2b2a2a;
+}
+.Learn_more {
+  color: #0070c8;
+  font-size: 20px;
+  text-decoration: none;
+}
+.Learn_more:hover {
+  text-decoration: underline;
+  color: #0070c8;
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
